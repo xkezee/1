@@ -1,0 +1,54 @@
+html{
+	background: linear-gradient(90deg, #0f1626  40%, #192231 30%);
+	background: -webkit-linear-gradient(0deg, #0f1626  40%, #192231 30%);
+	background: -moz-linear-gradient(90deg, #0f1626  40%, #192231 30%);
+}
+body{
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	
+
+}
+#logo{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	margin-left:15%;
+	margin-bottom:-100px;
+}
+nav{
+	width:40%;
+	clear:both;
+	
+}
+nav ul{
+	float:right;
+	margin-top:100px;
+
+}
+nav ul li, nav ul li:active, nav ul li a:link, nav ul li a:visited {
+	list-style: none;
+	line-height: 70px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color:#f5f5f5;
+	font-size:45px;
+	display:block;
+	position:relative;
+}
+nav ul li a,nav ul li a:hover{
+	float:right;
+	margin-right:40px;
+	padding:5px 10px;
+	position:relative;
+}
+nav ul li a:hover::before{
+	content:'//////////////////////////////';
+	font-size:35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	position:absolute;
+	left:0;
+
